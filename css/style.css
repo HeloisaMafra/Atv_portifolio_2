@@ -1,0 +1,175 @@
+/*
+=============
+     GERAL
+=============
+*/
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+body {
+    color: #21243D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color: #21243D;
+    text-decoration: none;
+}
+
+p {
+    line-height: 130%;
+
+}
+section h2 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+/* =================
+   HEADER OR FOOTER
+   =================
+*/
+header li.atual a{
+    color: #FF6464;
+}
+main {
+    padding: 20px;
+}
+
+
+
+
+
+/* =============
+   ESPECÍFICO
+   =============
+*/
+header ul li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    
+}
+section.banner {
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+section.banner h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0 10px 0;
+}
+section.banner p button{
+    background-color: #FF6464;
+    border: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+}
+section.posts{
+    background-color: #EDF7FA;
+    padding: 10px;
+}
+section.posts h2 {
+    text-align: center;
+    margin: 15px;
+}
+section.posts ul li {
+    background-color: #FFF;
+    padding: 10px 15px 10px 15px;
+    margin: 12px 10px 12px 10px;
+}
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+section.posts ul li p {
+    margin: 15px 0 15px 0;
+
+}
+section.works {
+    padding: 20px 10px 20px 10px;
+}
+
+section.works ul li {
+    margin: 15px 0;
+}
+section.works ul li p {
+    margin: 15px 0;
+}
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 130%;
+}
+section.works ul li p.info{
+    color: #8695A4;
+}
+section.works ul li p.info span {
+    color: white;
+    background-color: #142850;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+section.works ul {
+    border-bottom: 1px solid #8695a4;
+}
+
+footer {
+    text-align: center;
+}
+footer a {
+    font-size: 2.3rem;
+    margin: 10px 15px;
+}
+section.ft p.dash span{
+    color: white;
+    background-color: #FF7C7C;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+section.ft h1{
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin: 10px;
+
+}
+section.ft p.bold{
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 10px;
+}
+section.ft p{
+    padding: 10px;
+}
+
+section.one h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    margin: 2px;
+}
+section.two h3{
+     font-size: 1.2rem;
+     font-weight: 400;
+     padding: 10px;
+     
+}
+section.two p{
+    padding: 10px;
+}
+main {
+    padding: 20px;
+}
+.block {
+    height: 200px;
+    width: 200px;
+   }
+.block2 {
+    height: 200px;
+    width: 200px;
+   }
